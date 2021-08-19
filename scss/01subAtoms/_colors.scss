@@ -2,13 +2,29 @@
 
 /* === go to subAtoms === */
 
-$primaryCol:        hsl($hue, $sat2, $lux2);
-$primaryColMuted:   hsl($hue, $sat1, $lux2);
+primary color:          black
+complementary color:    brown
+accent:                 blue
+white:                  white
 
-$compCol:           hsl($complementary, $sat2, $lux2);
+/* BLACK */
 
-$black:             hsl($hue, $sat, $lux);
-$grey1:             hsl($hue, $sat, $lux1);
-$grey2:             hsl($hue, $sat, $lux2);
-$grey3:             hsl($hue, $sat, $lux3);
-$white:             hsl($hue, $sat, 100%);
+$primaryCol:            hsl($hue, 0, 0);
+$primaryColLight:       hsl($hue, $sat2, $lux3);
+$primaryColMuted:       hsl($hue, $sat1, $lux2);
+
+/* BROWN */
+
+$compCol:               hsl($hue, $sat2, $lux2);
+$compColLigth:          hsl($hue, $sat2, $lux3);
+$compMuted:             hsl($hue, $sat1, $lux2);
+
+/* BLUE */
+
+$accentCol1:            hsl($complementary, $sat2, $lux2);
+$accentCol1Ligth:       hsl($complementary, $sat2, $lux2);
+$accentCol1Muted:       hsl($complementary, $sat1, $lux2);
+
+/* WHITE */
+
+$white:                 hsl($hue, 0, $lux3);
