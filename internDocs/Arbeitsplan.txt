@@ -6,33 +6,37 @@ BAUEN
 
         Global - Elemente
 
-            header
-            footer
-            nav
+            header                  X
+            footer                  X
+            nav                     X
 
         Architektur
 
-            index.HTML
-            contact.HTML
-            aboutMe.HTML
-            impressum.HTML
-            music.HTML
+            index.HTML              X
+            contact.HTML            X
+            aboutMe.HTML            X
+            impressum.HTML          X
+            music.HTML              X
 
     SCSS:
 
-        Bausteine (001 - 05)
-        Local Styles
+        Bausteine (001 - 05)        X
+        Local Styles                
 
 TESTEN
 
 
 ZEITPLAN:
 
-Donnerstag Nachmittag           HTML Global Elemente
-Montag Vormittag                HTML Architektur
-Montag Nachmittag               SCSS Bausteine
-Dienstag Vormittag              SCSS Local Styles + @media
-Mittwoch Vormittag              TESTEN
-Donnerstag Vormittag            Hochladen und TESTEN
+Donnerstag Nachmittag               HTML Global Elemente
+Montag Vormittag                    HTML Architektur
+Montag Nachmittag                   SCSS Bausteine
+Dienstag Vormittag                  SCSS Local Styles + @media
+Mittwoch Vormittag                  TESTEN
+Donnerstag Vormittag                Hochladen und TESTEN
 
-Extra Features                  Accesibility + arrow-funcionality
+Extra Features                      Accesibility + arrow-funcionality
+
+Kommentare:
+
+#19.08.2021                         Ich bin zu vom Zeitplan. Es ist ja mal gut. Dh nächste Woche kann ich die statysche Webseite und die Funktionalität des "Seitenwechselnbutton" aufbauen, die generell scss-Architektur verbessern, ein Report davon machen, bessere Materialien, Interaktionen, die Accesibility verbessern und das Design generell raffinieren.
