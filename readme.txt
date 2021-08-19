@@ -1,26 +1,55 @@
-This boilerplate is losely based on the concepts from Atomic Design.
+Titel:
+    Andreu Brunat Portfolio
 
-The idea is to work from the smallest units to the biggest.
+Thema:
+    Portfolio des Blöckflötist, Dirigent und Musiklehrer
 
-At the same time is not an empty system: values are already provided. This besides to the elements (like cards, navs, buttons, etc) in "compounds" and the templates folder provides a (in my opinion) good starting point to style a website really fast.
+Stimmung:
+    Modern, Sauber, Kreativ
 
-So you can use a "nav" with a class .nav, but at the same time, since the naming are -for the most part- selfexplanatory, and there's no conflict between a framework and your css, it's a highly customizable system.
+Unterseiten:
+    Index
+    Music
+    About Me
+    Kontakt
+    Impressum
 
-Some things I love about this idea:
+Assets/Material:
+    Logo:
 
-since everything is separated in smaller parts, it should be very easy for everyone to work with every element appart. If you want to change the main color, or the complementary, you only need to go with this color is. You want to change the margin of the body, or of the articles: you'll find their values centralized in a document for every task.
+    Icons:
+        fb, ig, tw, yt
 
-This may seem daunting or hard to find, but it's actually ez.
+    Font Icons:
+        arrow-video__carrousel // arrow-lateralität
 
-And should lead to a more DRY, clear and well structured CSS.
+    Bilder
+        Andreu Whole Body Portrait
+        Andreu in action
 
-And easier to refactor.
+    Documents
+        CV Pdf
 
+    Links
+        fb, ig, tw, yt	
 
-Weak points:
+    Text
+        About me [momentan lorem]
 
-    * it's wrote in "old-fashion" scss: @imports instead of @use
+    Schriftarten
+        Roboto
 
-    * I'm not taking any advantatge of features like loops and functions.- which I plan to do soon
+        font-family: 'Roboto', sans-serif;
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet"> 
 
-    * I would like to have some more templates and implement clamp for font-size
+    Farben:
+        Muted white
+        Muted black
+        Blue(#00518F)
+        Brown (#8F5C0E)
+
+Extra-Features:
+    Blog durch Statische Webseiten

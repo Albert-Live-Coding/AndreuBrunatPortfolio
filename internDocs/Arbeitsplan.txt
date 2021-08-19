@@ -1,0 +1,36 @@
+Ziel: eine vollständige Webseite liefern
+
+BAUEN
+
+    HTML:
+
+        Global - Elemente
+
+            header
+            footer
+            nav
+
+        Architektur
+
+            index.HTML
+            contact.HTML
+            aboutMe.HTML
+            impressum.HTML
+            music.HTML
+
+    SCSS:
+
+        Bausteine (001 - 05)
+        Local Styles
+
+TESTEN
+
+
+ZEITPLAN:
+
+Donnerstag Nachmittag           HTML Global Elemente
+Montag Vormittag                HTML Architektur
+Montag Nachmittag               SCSS Bausteine
+Dienstag Vormittag              SCSS Local Styles
+Mittwoch Vormittag              TESTEN
+Donnerstag Vormittag            Hochladen und TESTEN
