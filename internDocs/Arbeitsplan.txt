@@ -31,6 +31,8 @@ ZEITPLAN:
 Donnerstag Nachmittag           HTML Global Elemente
 Montag Vormittag                HTML Architektur
 Montag Nachmittag               SCSS Bausteine
-Dienstag Vormittag              SCSS Local Styles
+Dienstag Vormittag              SCSS Local Styles + @media
 Mittwoch Vormittag              TESTEN
 Donnerstag Vormittag            Hochladen und TESTEN
+
+Extra Features                  Accesibility + 
