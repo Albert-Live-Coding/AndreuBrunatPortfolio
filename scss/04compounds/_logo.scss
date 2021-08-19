@@ -1,4 +1,6 @@
 .logo{
+    position: absolute;
+    inset: 3em 0 0 3em;
     display: flex;
     &__img{
         height: $imgLogo;
@@ -7,7 +9,7 @@
     &__name{
         font-size: $f3;
         font-weight: 700;
-        color: $primaryCol;
+        color: $primaryColMuted;
         line-height: 1.5em;
     }
 }

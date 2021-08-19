@@ -3,17 +3,18 @@ button{
     border: none;
     border-radius: 5px;
     font-size: $f3;
-    color: $primaryCol;
+    color: $accentCol1;
+    background-color: $primaryColLight;
     transition: $transitionDuration;
     :hover{
-        color: $primaryColMuted;
+        color: $accentCol1Ligth;
     }
     :active{
-        color: white;
-        background-color: $primaryCol;
+        color: $white;
+        background-color: $accentCol1Muted;
     }
     :focus{
-        color: $primaryColMuted;
+        color: $accentCol1Muted;
         background-color: $primaryCol;
     }
 }
