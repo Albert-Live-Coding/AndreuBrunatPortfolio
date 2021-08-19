@@ -35,4 +35,4 @@ Dienstag Vormittag              SCSS Local Styles + @media
 Mittwoch Vormittag              TESTEN
 Donnerstag Vormittag            Hochladen und TESTEN
 
-Extra Features                  Accesibility + 
+Extra Features                  Accesibility + arrow-funcionality

@@ -15,13 +15,35 @@
     <header>
       <div class="logo-card">
         <img src="" alt="" class="logo-card__img">
-        <p class="logo-card__txt">NDREU BRUNAT</p>
+        <p class="logo-card__txt">NDREU <span class="h1--bigger">B</span>RUNAT</p>
       </div>
+      <h1>Contacte</h1>
     </header>
     <main>
-    
+      <nav class="nav">
+        <a href="./dist/music.html" class="nav__link"></a>
+        <a href="./dist/aboutMe.html" class="nav__link"></a>
+        <a href="./dist/projectes.html" class="nav__link"></a>
+      </nav>    
 
-
+      <form method="GET" action="">
+        <label for="name">Nom i Cognoms</label>
+        <input type="text" id="name" name="name" maxlength="30">
+        <label for="telefon">Teléfon</label>
+        <input type="number" id="phone" name="phone" maxlength="10">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" maxlength="15" required>
+        <label for="msg">Missatge</label>
+        <textarea name="msg" id="msg" cols="30" rows="10" maxlength="1000"></textarea>
+        <button type="submit">Envia</button>
+      </form>
+      <div class="contact-info">
+        <ul>
+          <li><a href="mailto:mail@mail.com">mail@mail.com</a></li>
+          <li><a href="tel:+123456789">+123456789</a></li>
+          <li><address>c. carrer 54, 012345, Barcelona</address></li>
+        </ul>
+      </div>
       
     </main>
     <footer>
@@ -32,6 +54,7 @@
         <a href="#" target="blank"><img src="./icon/iconmonstr-twitter-4.svg" alt="instagram" class="icon"></a>
         <a href="#" target="blank"><img src="./icon/iconmonstr-youtube-9.svg" alt="youtube" class="icon"></a>
       </ul>
+      <a href="../dist/impressum.html">Impressum</a>
     </footer>
   </body>
 </html>
