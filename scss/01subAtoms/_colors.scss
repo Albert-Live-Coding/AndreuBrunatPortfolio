@@ -18,13 +18,18 @@ $primaryColMuted:       hsl($hue, $sat1, $lux2);
 $compCol:               hsl($hue, $sat2, $lux2);
 $compColLigth:          hsl($hue, $sat2, $lux3);
 $compColMuted:          hsl($hue, $sat1, $lux2);
+$compColDark:            hsl($hue, $sat2, 10%);
 
 /* BLUE */
 
-$accentCol:             hsl($complementary, $sat2, $lux2);
-$accentColLigth:        hsl($complementary, $sat2, $lux2);
-$accentColMuted:        hsl($complementary, $sat1, $lux2);
+$accentCol1:             hsl($complementary, $sat2, $lux2);
+$accentCol1Ligth:        hsl($complementary, $sat2, $lux2);
+$accentCol1Muted:        hsl($complementary, $sat1, $lux2);
 
 /* WHITE */
 
-$white:                 hsl($hue, 0, $lux3);
+$white:                 hsl($hue, 0, $lux4);
+
+$grey1:                 hsl($hue, 0, $lux1);
+$grey2:                 hsl($hue, 0, $lux2);
+$grey3:                 hsl($hue, 0, $lux3);

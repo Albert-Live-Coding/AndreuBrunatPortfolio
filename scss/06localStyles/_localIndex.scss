@@ -1,0 +1,16 @@
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__img{
+        height: 40vh;
+        width: 20vw;
+        object-fit: cover;
+        float: left;
+        margin: 0 1em 0 0;
+    }
+    &__txt{
+        line-height: 1.6em;
+        margin-right: 20vw;
+    }
+}

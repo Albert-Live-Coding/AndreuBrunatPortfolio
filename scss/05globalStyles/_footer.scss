@@ -4,4 +4,18 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: $compColDark;
+    padding: 2vh 0;
 }
+
+.social {
+    display: flex;
+    &__icon{
+        margin: 0 1em;
+    }
+}
+
+.footer__impressum{
+    width: 0;
+}
+

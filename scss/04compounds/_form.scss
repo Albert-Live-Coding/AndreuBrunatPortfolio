@@ -17,19 +17,19 @@ form{
         padding: .5em 0 .5em .25em;
         border: $borderThin solid $primaryCol;
         &:active{
-            color: $accentCol;
+            color: $accentCol1;
         }
         &:focus{
-            color: $accentCol;
+            color: $accentCol1;
         }
     }
     &__txt{
-        border: $borderThin solid $accentCol;
+        border: $borderThin solid $accentCol1;
         &:active{
             outline: 1.5px solid $primaryCol;
         }
         &:focus{
-            color: $accentCol;
+            color: $accentCol1;
         }
     }
     
