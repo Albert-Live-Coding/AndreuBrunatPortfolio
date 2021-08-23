@@ -9,6 +9,7 @@ button{
     color: $accentCol1;
     background-color: $primaryColLight;
     transition: $transitionDuration;
+    
     :hover{
         color: $accentCol1Ligth;
     }
@@ -20,4 +21,8 @@ button{
         color: $accentCol1Muted;
         background-color: $primaryCol;
     }
+}
+
+.button-download{
+    color: $accentCol1;
 }

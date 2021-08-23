@@ -1,3 +1,11 @@
 a{
-    text-decoration: none;
+    &:hover{
+        color: $accentCol1Ligth;
+    }
+    &:active{
+        color: $accentCol1;
+    }
+    &:focus{
+        color: $accentCol1Dark;
+    }
 }

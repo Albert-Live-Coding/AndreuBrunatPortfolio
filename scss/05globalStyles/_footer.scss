@@ -4,21 +4,20 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $compColDark;
+    background-color: $white;
     padding: 2vh 0;
 }
 
 .social {
     display: flex;
     &__icon{
-        margin: 0 1em;
+        margin: 0 .75em;
     }
 }
 
 .footer__impressum{
     width: 0;
-    color: $white2;
+    color: $grey1;
     font-size: $f2;
     margin-right: 25vw;
 }
-

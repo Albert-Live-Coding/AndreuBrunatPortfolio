@@ -1,5 +1,17 @@
 .header-main{
-    
+    padding: 5vh 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    &__icon{
+        height: $f5;
+        margin: 0;
+        position: relative;
+        inset: auto auto 1em 2.7em;
+    }
+    &__h1{
+        text-align: end;
+    }
 }
 
 .h1-container{
@@ -12,8 +24,8 @@
         outline: 1px solid red;
     }
     &__h1{
-        outline: 1px solid red;
         line-height: 0;
+        outline: 1px solid red;
     }
 }
 

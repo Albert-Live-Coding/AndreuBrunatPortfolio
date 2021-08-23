@@ -39,6 +39,16 @@ table {
 complementary color:    brown
 accent:                 blue
 white:                  white */
+/* 
+2021.08.23 color restructuration
+
+p + &                   muted black     $primaryColMuted
+
+heading                 dark muted blue &accentCol1
+
+nav and footer          brown           $compCol en una de sus variantes         
+
+interactive elements    blue            $accentCol1 / $accentCol1Ligth / $accentCol1Dark */
 /* BLACK */
 /* BROWN */
 /* BLUE */
@@ -69,6 +79,16 @@ $f9:      11.9rem;
 complementary color:    brown
 accent:                 blue
 white:                  white */
+/* 
+2021.08.23 color restructuration
+
+p + &                   muted black     $primaryColMuted
+
+heading                 dark muted blue &accentCol1
+
+nav and footer          brown           $compCol en una de sus variantes         
+
+interactive elements    blue            $accentCol1 / $accentCol1Ligth / $accentCol1Dark */
 /* BLACK */
 /* BROWN */
 /* BLUE */
@@ -91,7 +111,7 @@ $f9:      11.9rem;
 
  */
 h1 {
-  color: black;
+  color: #3a5378;
   font-size: 3.79259rem;
   font-weight: 700;
   margin-bottom: .5em;
@@ -104,7 +124,7 @@ h1 + p {
 }
 
 h2 {
-  color: black;
+  color: #4073bf;
   font-size: 2.84444rem;
   font-weight: 700;
   margin-bottom: .75em;
@@ -112,13 +132,20 @@ h2 {
 }
 
 h3 {
-  color: black;
+  color: #4073bf;
   font-size: 2.84444rem;
   margin-bottom: .5em;
 }
 
-p, textarea, figcaption, label, input, textarea, li {
-  color: black;
+p, textarea, figcaption, label, input, textarea, li, blockquote {
+  color: #595959;
+  font-size: 2.13333rem;
+  margin: 0 .5em 1em 0;
+}
+
+a {
+  text-decoration: none;
+  color: #595959;
   font-size: 2.13333rem;
   margin: 0 .5em 1em 0;
 }
@@ -138,8 +165,6 @@ a, textarea, figcaption {
 }
 
 blockquote {
-  color: black;
-  font-size: 2.13333rem;
   font-style: italic;
   margin-bottom: .5em;
   line-height: 1.5em;
@@ -152,7 +177,7 @@ a {
 }
 
 a:hover {
-  color: #ac8853;
+  color: #595959;
 }
 
 a :active {
@@ -161,7 +186,7 @@ a :active {
 }
 
 a :focus {
-  color: #ac8853;
+  color: #595959;
   background-color: black;
 }
 
@@ -174,6 +199,16 @@ a :focus {
 complementary color:    brown
 accent:                 blue
 white:                  white */
+/* 
+2021.08.23 color restructuration
+
+p + &                   muted black     $primaryColMuted
+
+heading                 dark muted blue &accentCol1
+
+nav and footer          brown           $compCol en una de sus variantes         
+
+interactive elements    blue            $accentCol1 / $accentCol1Ligth / $accentCol1Dark */
 /* BLACK */
 /* BROWN */
 /* BLUE */
@@ -190,7 +225,7 @@ button {
 }
 
 button :hover {
-  color: #4073bf;
+  color: #9fb9df;
 }
 
 button :active {
@@ -203,8 +238,20 @@ button :focus {
   background-color: black;
 }
 
-a {
-  text-decoration: none;
+.button-download {
+  color: #4073bf;
+}
+
+a:hover {
+  color: #9fb9df;
+}
+
+a:active {
+  color: #4073bf;
+}
+
+a:focus {
+  color: #3a5378;
 }
 
 .nav {
@@ -216,11 +263,18 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10em;
+}
+
+.nav__img {
+  width: 15rem;
+  position: absolute;
+  top: -10em;
 }
 
 .nav__container {
   position: absolute;
-  top: 50vh;
+  top: 35vh;
   display: flex;
   flex-direction: column;
   padding-right: 8vw;
@@ -231,6 +285,7 @@ a {
   background-color: #f9f9f9;
   border-radius: 25px;
   padding: .25em 1em;
+  color: #3a5378;
 }
 
 .nav__container__link--current {
@@ -238,7 +293,7 @@ a {
   background-color: #f9f9f9;
   border-radius: 25px;
   padding: .25em 1em;
-  color: #bfbfbf;
+  color: #9fb9df;
 }
 
 /*  .logo{
@@ -359,7 +414,7 @@ form {
   align-items: center;
   padding: 1em 3em;
   width: 10vw;
-  background-color: #ac8853;
+  background-color: #785f3a;
   position: fixed;
   inset: 0 auto 0 0;
   scroll-padding: 1rem 0 1rem;
@@ -404,7 +459,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #261c0d;
+  background-color: #f9f9f9;
   padding: 2vh 0;
 }
 
@@ -413,12 +468,12 @@ footer {
 }
 
 .social__icon {
-  margin: 0 1em;
+  margin: 0 .75em;
 }
 
 .footer__impressum {
   width: 0;
-  color: #f2f2f2;
+  color: #595959;
   font-size: 1.6rem;
   margin-right: 25vw;
 }
@@ -446,6 +501,24 @@ section__img {
   margin: 2em 0;
 }
 
+.header-main {
+  padding: 5vh 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.header-main__icon {
+  height: 3.79259rem;
+  margin: 0;
+  position: relative;
+  inset: auto auto 1em 2.7em;
+}
+
+.header-main__h1 {
+  text-align: end;
+}
+
 .h1-container {
   display: flex;
   align-items: center;
@@ -458,8 +531,8 @@ section__img {
 }
 
 .h1-container__h1 {
-  outline: 1px solid red;
   line-height: 0;
+  outline: 1px solid red;
 }
 
 .quote {

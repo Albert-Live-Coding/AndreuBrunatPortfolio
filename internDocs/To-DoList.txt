@@ -1,8 +1,11 @@
 nächster Schritt:
 
-    logo + Blockflöptefuss
-    re-(estructurar + definir + nombrar) colores
-    icons white
-    change footer, so it includes Blockflöptefuss
-    text dark blue?
+    
+
+    logo end version
+
+EXTRAS
+    arrow lateralität
+    Blockflöptefuss
+    redefinir paleta colores + renombrar colores
     nav textura statt color

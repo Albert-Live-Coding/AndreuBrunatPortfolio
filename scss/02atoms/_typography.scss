@@ -3,7 +3,7 @@
 @import '../01subAtoms/fontSize';
 
 h1{
-    color: $primaryCol;
+    color: $accentCol1Dark;
     font-size: $f5;
     font-weight: 700;
     margin-bottom: .5em;
@@ -16,7 +16,7 @@ h1{
 }
 
 h2{
-    color: $primaryCol;
+    color: $accentCol1;
     font-size: $f4;
     font-weight: 700;
     margin-bottom: .75em;
@@ -24,13 +24,20 @@ h2{
 }
 
 h3{
-    color: $primaryCol;
+    color: $accentCol1;
     font-size: $f4;
     margin-bottom: .5em;
 }
 
-p, textarea, figcaption, label, input, textarea, li{
-    color: $primaryCol;
+p, textarea, figcaption, label, input, textarea, li, blockquote{
+    color: $primaryColMuted;
+    font-size: $f3;
+    margin: 0 .5em 1em 0;
+}
+
+a{
+    text-decoration: none;
+    color: $primaryColMuted;
     font-size: $f3;
     margin: 0 .5em 1em 0;
 }
@@ -51,8 +58,6 @@ a, textarea, figcaption{
 }
 
 blockquote{
-    color: $primaryCol;
-    font-size: $f3;
     font-style: italic;
     margin-bottom: .5em;
     line-height: 1.5em;
