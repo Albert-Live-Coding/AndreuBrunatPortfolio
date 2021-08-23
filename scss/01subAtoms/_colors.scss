@@ -20,7 +20,7 @@ interactive elements    blue            $accentCol1 / $accentCol1Ligth / $accent
 
 /* BLACK */
 
-$primaryCol:            hsl($hue, 0, 0);
+$primaryCol:            hsl($hue, $sat3, $lux1);
 $primaryColLight:       hsl($hue, $sat2, $lux3);
 $primaryColMuted:       hsl($hue, 0%, $lux1);
 

@@ -3,7 +3,7 @@
     inset: 0 0 0 auto;
     height: 100%;
     width: 15vw;
-    background-color: $compColDark;
+    background-color: $accentCol1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,13 +24,13 @@
             background-color: $white;
             border-radius: 25px;
             padding: .25em 1em;
-            color: $accentCol1Dark;
+            color: $primaryCol;
             &--current{
                 margin: 1em 0;
                 background-color: $white;
                 border-radius: 25px;
                 padding: .25em 1em;
-                color: $accentCol1Ligth;
+                color: $primaryColLight;
             }
         }
     }

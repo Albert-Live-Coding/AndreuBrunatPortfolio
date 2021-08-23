@@ -21,17 +21,17 @@ BAUEN
     SCSS:
 
         Bausteine (001 - 05)        X
-        Local Styles                
+        Local Styles                X
 
 TESTEN
 
 
 ZEITPLAN:
 
-Donnerstag Nachmittag               HTML Global Elemente
-Montag Vormittag                    HTML Architektur
-Montag Nachmittag                   SCSS Bausteine
-Dienstag Vormittag                  SCSS Local Styles + @media
+Donnerstag Nachmittag               #HTML Global Elemente
+Montag Vormittag                    #HTML Architektur
+Montag Nachmittag                   #SCSS Bausteine
+Dienstag Vormittag                  #SCSS Local Styles + # @media
 Mittwoch Vormittag                  TESTEN
 Donnerstag Vormittag                Hochladen und TESTEN
 

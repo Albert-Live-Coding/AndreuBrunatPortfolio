@@ -111,7 +111,7 @@ $f9:      11.9rem;
 
  */
 h1 {
-  color: #3a5378;
+  color: #784f3a;
   font-size: 3.79259rem;
   font-weight: 700;
   margin-bottom: .5em;
@@ -124,7 +124,7 @@ h1 + p {
 }
 
 h2 {
-  color: #4073bf;
+  color: #dfb59f;
   font-size: 2.84444rem;
   font-weight: 700;
   margin-bottom: .75em;
@@ -132,7 +132,7 @@ h2 {
 }
 
 h3 {
-  color: #4073bf;
+  color: #bf6a40;
   font-size: 2.84444rem;
   margin-bottom: .5em;
 }
@@ -171,7 +171,7 @@ blockquote {
 }
 
 a {
-  color: black;
+  color: #1f6d93;
   font-size: 2.13333rem;
   text-decoration: none;
 }
@@ -182,12 +182,12 @@ a:hover {
 
 a :active {
   color: white;
-  background-color: black;
+  background-color: #1f6d93;
 }
 
 a :focus {
   color: #595959;
-  background-color: black;
+  background-color: #1f6d93;
 }
 
 /* === go to colors === */
@@ -219,39 +219,39 @@ button {
   border: none;
   border-radius: 5px;
   font-size: 2.13333rem;
-  color: #4073bf;
-  background-color: #dfc69f;
+  color: #bf6a40;
+  background-color: #f2f2f2;
   transition: 300ms;
 }
 
 button :hover {
-  color: #9fb9df;
+  color: #dfb59f;
 }
 
 button :active {
   color: #f9f9f9;
-  background-color: #5377ac;
+  background-color: #ac7153;
 }
 
 button :focus {
-  color: #5377ac;
-  background-color: black;
+  color: #ac7153;
+  background-color: #1f6d93;
 }
 
 .button-download {
-  color: #4073bf;
+  color: #bf6a40;
 }
 
 a:hover {
-  color: #9fb9df;
+  color: #dfb59f;
 }
 
 a:active {
-  color: #4073bf;
+  color: #bf6a40;
 }
 
 a:focus {
-  color: #3a5378;
+  color: #784f3a;
 }
 
 .nav {
@@ -259,7 +259,7 @@ a:focus {
   inset: 0 0 0 auto;
   height: 100%;
   width: 15vw;
-  background-color: #261c0d;
+  background-color: #bf6a40;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -285,7 +285,7 @@ a:focus {
   background-color: #f9f9f9;
   border-radius: 25px;
   padding: .25em 1em;
-  color: #3a5378;
+  color: #1f6d93;
 }
 
 .nav__container__link--current {
@@ -293,7 +293,7 @@ a:focus {
   background-color: #f9f9f9;
   border-radius: 25px;
   padding: .25em 1em;
-  color: #9fb9df;
+  color: #9fcadf;
 }
 
 /*  .logo{
@@ -315,7 +315,7 @@ a:focus {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  border: 3px solid black;
+  border: 3px solid #1f6d93;
   padding: 3em 0 2em;
 }
 
@@ -329,13 +329,13 @@ a:focus {
 .card__tittle {
   font-size: 2.84444rem;
   font-weight: 700;
-  color: black;
+  color: #1f6d93;
   margin: 2em auto 1em;
 }
 
 .card__txt {
   font-size: 2.13333rem;
-  color: black;
+  color: #1f6d93;
   margin: 0 1em;
 }
 
@@ -369,28 +369,28 @@ form {
 
 .form-field__input {
   padding: .5em 0 .5em .25em;
-  border: 0.5px solid black;
+  border: 0.5px solid #1f6d93;
   width: 100%;
 }
 
 .form-field__input:active {
-  color: #4073bf;
+  color: #bf6a40;
 }
 
 .form-field__input:focus {
-  color: #4073bf;
+  color: #bf6a40;
 }
 
 .form-field__txt {
-  border: 0.5px solid #4073bf;
+  border: 0.5px solid #bf6a40;
 }
 
 .form-field__txt:active {
-  outline: 1.5px solid black;
+  outline: 1.5px solid #1f6d93;
 }
 
 .form-field__txt:focus {
-  color: #4073bf;
+  color: #bf6a40;
 }
 
 .form-field__btn {
@@ -414,7 +414,7 @@ form {
   align-items: center;
   padding: 1em 3em;
   width: 10vw;
-  background-color: #785f3a;
+  background-color: #3a6478;
   position: fixed;
   inset: 0 auto 0 0;
   scroll-padding: 1rem 0 1rem;
@@ -438,7 +438,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #f2f2f2;
 }
 
 .header__logo {
@@ -449,8 +449,8 @@ body {
 }
 
 main {
-  padding: 0 5vw 5vh;
-  background-color: white;
+  padding: 5vh 5vw 12vh;
+  background-color: #f9f9f9;
 }
 
 footer {
@@ -459,7 +459,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #f2f2f2;
   padding: 2vh 0;
 }
 
@@ -589,41 +589,6 @@ section__img {
   font-style: italic;
   font-size: 1.6rem;
   margin-top: 1em;
-}
-
-.test-nav {
-  position: fixed;
-  inset: 0 0 0 auto;
-  height: 100%;
-  width: 15vw;
-  background-color: #261c0d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* padding-top: 50vh; */
-}
-
-.test-nav__container {
-  position: absolute;
-  top: 50vh;
-  display: flex;
-  flex-direction: column;
-  padding-right: 8vw;
-}
-
-.test-nav__container__link {
-  margin: 1em 0;
-  background-color: #f9f9f9;
-  border-radius: 25px;
-  padding: .25em 1em;
-}
-
-.test-nav__container__link--current {
-  margin: 1em 0;
-  background-color: #f9f9f9;
-  border-radius: 25px;
-  padding: .25em 1em;
-  color: #bfbfbf;
 }
 
 /* @media screen and (min-width: 768px){
