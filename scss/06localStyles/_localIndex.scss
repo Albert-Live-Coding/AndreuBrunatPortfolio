@@ -1,3 +1,22 @@
+.header-main{
+    
+}
+
+.h1-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &__icon{
+        height: $iconMed;
+        outline: 1px solid red;
+    }
+    &__h1{
+        outline: 1px solid red;
+        line-height: 0;
+    }
+}
+
 .quote{
     display: flex;
     align-items: center;
@@ -12,5 +31,22 @@
     &__txt{
         line-height: 1.6em;
         margin-right: 20vw;
+    }
+}
+
+.hero{
+    margin-bottom: 5em;
+
+    &__video{
+        width: 75vw;
+        aspect-ratio: 9/6;
+    }
+
+    &__description{
+    text-align: center;
+    font-style: italic;
+    font-size: $f2;
+    margin-top: 1em;
+    
     }
 }

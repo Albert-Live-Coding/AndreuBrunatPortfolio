@@ -12,32 +12,37 @@
     <title>Andreu Brunat Portfolio</title>
   </head>
   <body>
-    <header>
-      <div class="logo-card">
-        <img src="" alt="" class="logo-card__img">
-        <p class="logo-card__txt">NDREU <span class="h1--bigger">B</span>RUNAT</p>
-      </div>
+    <header class="header">
+      <img src="../icon/moritz-mentges-5MlBMYDsGBY-unsplash.jpg" alt="" class="header__logo">
       <h1>Música</h1>
     </header>
     <main>
       <nav class="nav">
-        <a href="./dist/aboutMe.html" class="nav__link"></a>
-        <a href="./dist/projectes.html" class="nav__link"></a>
-        <a href="./dist/contact.html" class="nav__link"></a>
-      </nav>    
-
-
-      
+        <div class="nav__container">
+          <a href="./music.html" class="nav__container__link--current">Música</a>
+          <a href="./projectes.html" class="nav__container__link">Projectes</a>
+          <a href="./aboutMe.html" class="nav__container__link">Sobre mí</a>
+          <a href="./contact.html" class="nav__container__link">Contacte</a>
+        </div>
+      </nav> 
+      <div class="music">
+        <iframe src="https://www.youtube.com/watch?v=tJMmWPsnJYA" frameborder="0" class="music__iframe"></iframe>
+        <blockquote class="music__quote">Titol, descripció</blockquote>
+        <iframe src="https://www.youtube.com/watch?v=HR4qMp9ZE6Y" frameborder="0" class="music__iframe"></iframe>
+        <blockquote class="music__quote">Titol, descripció</blockquote>
+        <iframe src="https://www.youtube.com/watch?v=RLF-s5lUllE" frameborder="0" class="music__iframe"></iframe>
+        <blockquote class="music__quote">Titol, descripció</blockquote>
+      </div>
     </main>
-    <footer>
-      <img src="./icon/arrow-end-right.svg" alt="arrow-side">
-      <ul>
-        <a href="#" target="blank"><img src="./icon/iconmonstr-facebook-4.svg" alt="facebook" class="icon"></a>
-        <a href="#" target="blank"><img src="./icon/iconmonstr-instagram-14.svg" alt="instagram" class="icon"></a>
-        <a href="#" target="blank"><img src="./icon/iconmonstr-twitter-4.svg" alt="instagram" class="icon"></a>
-        <a href="#" target="blank"><img src="./icon/iconmonstr-youtube-9.svg" alt="youtube" class="icon"></a>
+  <footer>
+      <!-- <img src="./icon/arrow-end-right.svg" alt="arrow-side"> -->
+      <ul class="social">
+        <a href="#" target="blank"><img src="../icon/iconmonstr-facebook-4.svg" alt="facebook" class="social__icon"></a>
+        <a href="#" target="blank"><img src="../icon/iconmonstr-instagram-14.svg" alt="instagram" class="social__icon"></a>
+        <a href="#" target="blank"><img src="../icon/iconmonstr-twitter-4.svg" alt="instagram" class="social__icon"></a>
+        <a href="#" target="blank"><img src="../icon/iconmonstr-youtube-9.svg" alt="youtube" class="social__icon"></a>
       </ul>
-      <a href="../dist/impressum.html">Impressum</a>
-    </footer>
+      <a href="../dist/impressum.html" class="footer__impressum">Impressum</a>
+    </footer> 
   </body>
 </html>

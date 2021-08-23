@@ -28,7 +28,9 @@ $accentCol1Muted:        hsl($complementary, $sat1, $lux2);
 
 /* WHITE */
 
-$white:                 hsl($hue, 0, $lux4);
+$white:                 hsl($hue, 0, 97.5%);
+$white2:                hsl($hue, 0, 95%);
+
 
 $grey1:                 hsl($hue, 0, $lux1);
 $grey2:                 hsl($hue, 0, $lux2);

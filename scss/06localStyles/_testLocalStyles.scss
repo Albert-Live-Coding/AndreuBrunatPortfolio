@@ -1,4 +1,4 @@
-.nav{
+.test-nav{
     position: fixed;
     inset: 0 0 0 auto;
     height: 100%;
@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* padding-top: 50vh; */
     &__container{
         position: absolute;
         top: 50vh;

@@ -8,14 +8,15 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space;
+    max-width: 55vw;
     
     &__label{
         padding-left: .25em;
     }
     &__input{
-        outline: 1px solid $primaryCol;
         padding: .5em 0 .5em .25em;
         border: $borderThin solid $primaryCol;
+        width: 100%;
         &:active{
             color: $accentCol1;
         }

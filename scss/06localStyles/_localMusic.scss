@@ -1,0 +1,15 @@
+.music{
+    margin: 0 15vw 10vh 0;
+    &__iframe{
+        width: 62vw;
+        aspect-ratio: 9/6;
+        margin: 3vh 2vw 0;
+    }
+    &__quote{
+            text-align: center;
+            font-style: italic;
+            font-size: $f2;
+            margin-top: 1em;
+    }
+}
+

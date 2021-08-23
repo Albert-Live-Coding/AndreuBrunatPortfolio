@@ -1,7 +1,14 @@
-header{
-    padding: 5vh 15vw;
+.header{
+    padding: 5vh 7vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: $white;
+    &__logo{
+        height: $imgLogo;
+        margin-right: 5px;
+        position: absolute;
+        inset: 10px auto auto 10px;
+    }
 }
+
