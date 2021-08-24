@@ -2,8 +2,13 @@
     body{
         padding: 0;
     }
+
+    main{
+        padding: 0 20vw 10vh;
+    }
+
     h1{
-        font-size: $f6;
+        font-size: $f7;
     }
     .header-main__icon{
         height: 50px;
@@ -12,20 +17,30 @@
     }
     .hero__description{
         font-size: $f3;
+        text-align: center;
+        margin: 0 auto;
     }
     .hero__video{
         display: block;
         margin: 0 auto;
         height: 50vh;
         width: 75vh;
-        outline: 1px solid red;
     }
-    blockquote{
-        font-size: $f4;
+
+.quote{
+    margin-left: 20vw;
+    &__img{
+        margin-right: 5em;
     }
+}
 
     .nav{
         width: 6.5vh;
+        &__img{
+            width: 8.75vw;
+            position: relative;
+            left: .05vw;
+        }
         &__container{
             padding-right: 4vw;
             &__link{
@@ -36,7 +51,6 @@
 
     footer{
         padding: 2vh 20vw;
-        outline: 1px solid red;
     }
 
     .footer__impressum{

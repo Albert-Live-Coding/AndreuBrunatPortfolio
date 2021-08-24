@@ -7,7 +7,7 @@
         height: $f5;
         margin: 0;
         position: relative;
-        inset: auto auto 1em 2.7em;
+        inset: auto auto .75em 3em;
     }
     &__h1{
         text-align: end;
@@ -21,11 +21,9 @@
     
     &__icon{
         height: $iconMed;
-        outline: 1px solid red;
     }
     &__h1{
         line-height: 0;
-        outline: 1px solid red;
     }
 }
 

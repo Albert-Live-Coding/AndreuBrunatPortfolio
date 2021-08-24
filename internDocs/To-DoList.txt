@@ -1,7 +1,4 @@
-nächster Schritt:
-
 EXTRAS
     arrow lateralität
     Blockflöptefuss
-    redefinir paleta colores + renombrar colores
     nav textura statt color

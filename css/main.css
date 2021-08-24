@@ -111,7 +111,7 @@ $f9:      11.9rem;
 
  */
 h1 {
-  color: #bf6c40;
+  color: #bf6a40;
   font-size: 3.79259rem;
   font-weight: 700;
   margin-bottom: .5em;
@@ -124,7 +124,7 @@ h1 + p {
 }
 
 h2 {
-  color: #bf6c40;
+  color: #bf6a40;
   font-size: 2.84444rem;
   font-weight: 400;
   margin-bottom: .75em;
@@ -132,13 +132,13 @@ h2 {
 }
 
 h3 {
-  color: #bf6c40;
+  color: #bf6a40;
   font-size: 2.84444rem;
   margin-bottom: .5em;
 }
 
 p, textarea, figcaption, label, input, textarea, li, blockquote {
-  color: #3a6378;
+  color: #3a6478;
   font-size: 2.13333rem;
   margin: 0 .5em 1em 0;
   width: clamp(45ch, 75%, 75ch);
@@ -146,7 +146,7 @@ p, textarea, figcaption, label, input, textarea, li, blockquote {
 
 a {
   text-decoration: none;
-  color: #3a6378;
+  color: #3a6478;
   font-size: 2.13333rem;
   margin: 0 .5em 1em 0;
 }
@@ -172,23 +172,23 @@ blockquote {
 }
 
 a {
-  color: #1f6b93;
+  color: #1f6d93;
   font-size: 2.13333rem;
   text-decoration: none;
 }
 
 a:hover {
-  color: #3a6378;
+  color: #3a6478;
 }
 
 a :active {
   color: white;
-  background-color: #1f6b93;
+  background-color: #1f6d93;
 }
 
 a :focus {
-  color: #3a6378;
-  background-color: #1f6b93;
+  color: #3a6478;
+  background-color: #1f6d93;
 }
 
 /* === go to colors === */
@@ -220,7 +220,7 @@ button {
   border: none;
   border-radius: 5px;
   font-size: 2.13333rem;
-  background-color: #dfb69f;
+  background-color: #dfb59f;
   transition: 300ms;
 }
 
@@ -230,16 +230,16 @@ button :hover {
 
 button :active {
   color: #f9f9f9;
-  background-color: #ac7253;
+  background-color: #ac7153;
 }
 
 button :focus {
-  color: #ac7253;
-  background-color: #1f6b93;
+  color: #ac7153;
+  background-color: #1f6d93;
 }
 
 .button-download {
-  color: #3a6378;
+  color: #3a6478;
 }
 
 a {
@@ -247,15 +247,15 @@ a {
 }
 
 a:hover {
-  color: #0d1d26;
+  color: #0d1e26;
 }
 
 a:active {
-  color: #bf6c40;
+  color: #bf6a40;
 }
 
 a:focus {
-  color: #78503a;
+  color: #784f3a;
 }
 
 .nav {
@@ -263,7 +263,7 @@ a:focus {
   inset: 0 0 0 auto;
   height: 100%;
   width: 15vw;
-  background-color: #bf6c40;
+  background-color: #bf6a40;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -289,7 +289,7 @@ a:focus {
   background-color: #f9f9f9;
   border-radius: 25px;
   padding: .25em 1em;
-  color: #1f6b93;
+  color: #1f6d93;
 }
 
 .nav__container__link--current {
@@ -297,7 +297,7 @@ a:focus {
   background-color: #f9f9f9;
   border-radius: 25px;
   padding: .25em 1em;
-  color: #9fc9df;
+  color: #9fcadf;
 }
 
 /*  .logo{
@@ -319,7 +319,7 @@ a:focus {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  border: 3px solid #1f6b93;
+  border: 3px solid #1f6d93;
   padding: 3em 0 2em;
 }
 
@@ -333,13 +333,13 @@ a:focus {
 .card__tittle {
   font-size: 2.84444rem;
   font-weight: 700;
-  color: #1f6b93;
+  color: #1f6d93;
   margin: 2em auto 1em;
 }
 
 .card__txt {
   font-size: 2.13333rem;
-  color: #1f6b93;
+  color: #1f6d93;
   margin: 0 1em;
 }
 
@@ -375,32 +375,32 @@ form {
 .form-field__input {
   padding: .5em 0.25em;
   margin-bottom: 1em;
-  border: 0.5px solid #1f6b93;
+  border: 0.5px solid #1f6d93;
   width: 100%;
 }
 
 .form-field__input:active {
-  color: #bf6c40;
+  color: #bf6a40;
 }
 
 .form-field__input:focus {
-  color: #bf6c40;
+  color: #bf6a40;
 }
 
 .form-field__txt {
-  border: 0.5px solid #bf6c40;
+  border: 0.5px solid #bf6a40;
 }
 
 .form-field__txt:active {
-  outline: 1.5px solid #1f6b93;
+  outline: 1.5px solid #1f6d93;
 }
 
 .form-field__txt:focus {
-  color: #bf6c40;
+  color: #bf6a40;
 }
 
 .form-field__btn {
-  color: #1f6b93;
+  color: #1f6d93;
 }
 
 .social-media {
@@ -420,7 +420,7 @@ form {
   align-items: center;
   padding: 1em 3em;
   width: 10vw;
-  background-color: #3a6378;
+  background-color: #3a6478;
   position: fixed;
   inset: 0 auto 0 0;
   scroll-padding: 1rem 0 1rem;
@@ -518,7 +518,7 @@ section__img {
   height: 3.79259rem;
   margin: 0;
   position: relative;
-  inset: auto auto 1em 2.7em;
+  inset: auto auto .75em 3em;
 }
 
 .header-main__h1 {
@@ -533,12 +533,10 @@ section__img {
 
 .h1-container__icon {
   height: 35px;
-  outline: 1px solid red;
 }
 
 .h1-container__h1 {
   line-height: 0;
-  outline: 1px solid red;
 }
 
 .quote {
@@ -601,8 +599,11 @@ section__img {
   body {
     padding: 0;
   }
+  main {
+    padding: 0 20vw 10vh;
+  }
   h1 {
-    font-size: 5.05679rem;
+    font-size: 6.74239rem;
   }
   .header-main__icon {
     height: 50px;
@@ -611,19 +612,28 @@ section__img {
   }
   .hero__description {
     font-size: 2.13333rem;
+    text-align: center;
+    margin: 0 auto;
   }
   .hero__video {
     display: block;
     margin: 0 auto;
     height: 50vh;
     width: 75vh;
-    outline: 1px solid red;
   }
-  blockquote {
-    font-size: 2.84444rem;
+  .quote {
+    margin-left: 20vw;
+  }
+  .quote__img {
+    margin-right: 5em;
   }
   .nav {
     width: 6.5vh;
+  }
+  .nav__img {
+    width: 8.75vw;
+    position: relative;
+    left: .05vw;
   }
   .nav__container {
     padding-right: 4vw;
@@ -633,7 +643,6 @@ section__img {
   }
   footer {
     padding: 2vh 20vw;
-    outline: 1px solid red;
   }
   .footer__impressum {
     margin: 0;
