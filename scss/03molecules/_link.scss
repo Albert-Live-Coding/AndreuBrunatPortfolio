@@ -1,6 +1,7 @@
 a{
+    transition: 300ms;
     &:hover{
-        color: $accentCol1Ligth;
+        color: $compColDark;
     }
     &:active{
         color: $accentCol1;

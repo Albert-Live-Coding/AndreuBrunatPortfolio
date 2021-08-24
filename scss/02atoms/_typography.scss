@@ -3,7 +3,7 @@
 @import '../01subAtoms/fontSize';
 
 h1{
-    color: $accentCol1Dark;
+    color: $accentCol1;
     font-size: $f5;
     font-weight: 700;
     margin-bottom: .5em;
@@ -16,9 +16,9 @@ h1{
 }
 
 h2{
-    color: $accentCol1Ligth;
+    color: $accentCol1;
     font-size: $f4;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: .75em;
     line-height: .8em;
 }
@@ -33,6 +33,7 @@ p, textarea, figcaption, label, input, textarea, li, blockquote{
     color: $primaryColMuted;
     font-size: $f3;
     margin: 0 .5em 1em 0;
+    width: clamp(45ch, 75%, 75ch);
 }
 
 a{

@@ -6,12 +6,11 @@ button{
     border: none;
     border-radius: 5px;
     font-size: $f3;
-    color: $accentCol1;
-    background-color: $white2;
+    background-color: $accentCol1Ligth;
     transition: $transitionDuration;
     
     :hover{
-        color: $accentCol1Ligth;
+        color: $grey3;
     }
     :active{
         color: $white;
@@ -24,5 +23,5 @@ button{
 }
 
 .button-download{
-    color: $accentCol1;
+    color: $primaryColMuted;
 }

@@ -11,10 +11,12 @@ form{
     max-width: 55vw;
     
     &__label{
-        padding-left: .25em;
+        margin-bottom: .5em;
+        padding: .5em auto .5em .25em;
     }
     &__input{
-        padding: .5em 0 .5em .25em;
+        padding: .5em 0.25em;
+        margin-bottom: 1em;
         border: $borderThin solid $primaryCol;
         width: 100%;
         &:active{
@@ -35,6 +37,6 @@ form{
     }
     
     &__btn{
-        margin: .25em 0 0 40%;
+        color: $primaryCol;
     }
 }

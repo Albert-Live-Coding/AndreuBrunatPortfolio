@@ -1,12 +1,5 @@
 nächster Schritt:
 
-probier:    #E6DB10 + #360099
-            #F0ED11 + #4900A3
-            #F0741A + #0095A3
-            #F0651A + #F0651A
-
-
-
 EXTRAS
     arrow lateralität
     Blockflöptefuss
