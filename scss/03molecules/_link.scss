@@ -7,6 +7,7 @@ a{
         color: $accentCol1;
     }
     &:focus{
-        color: $accentCol1Dark;
+        color: $white;
+        background-color: $primaryColMuted;
     }
 }

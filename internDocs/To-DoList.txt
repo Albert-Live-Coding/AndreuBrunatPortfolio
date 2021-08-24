@@ -1,4 +1,1 @@
-EXTRAS
-    arrow lateralität
-    Blockflöptefuss
-    nav textura statt color
+impressum layout

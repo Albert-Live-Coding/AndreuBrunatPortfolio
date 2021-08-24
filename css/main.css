@@ -255,7 +255,8 @@ a:active {
 }
 
 a:focus {
-  color: #784f3a;
+  color: #f9f9f9;
+  background-color: #3a6478;
 }
 
 .nav {
@@ -482,6 +483,13 @@ footer {
   color: #595959;
   font-size: 1.6rem;
   margin-right: 25vw;
+  padding: 1em 5em;
+  text-align: center;
+}
+
+.footer__impressum:focus {
+  color: #f9f9f9;
+  background-color: #3a6478;
 }
 
 article {

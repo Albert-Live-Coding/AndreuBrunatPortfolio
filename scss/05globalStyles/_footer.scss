@@ -20,4 +20,10 @@ footer{
     color: $grey1;
     font-size: $f2;
     margin-right: 25vw;
+    padding: 1em 5em;
+    text-align: center;
+    &:focus{
+        color: $white;
+        background-color: $primaryColMuted
+    }
 }

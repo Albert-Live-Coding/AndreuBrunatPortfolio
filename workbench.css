@@ -1,6 +1,7 @@
 p{
     font-size: 18px;
     width: clamp(12ch, 50%, 120ch);
+    margin-bottom: 3em;
 }
 
 
