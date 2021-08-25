@@ -1,29 +1,22 @@
-footer{
-    position: fixed;
-    inset: auto 0 0 0 ;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+ .footer{
+
     background-color: $white2;
-    padding: 2vh 0;
-}
-
-.social {
+    padding: 2em 20vw 3em;
     display: flex;
-    &__icon{
-        margin: 0 .75em;
-    }
-}
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-.footer__impressum{
-    width: 0;
-    color: $grey1;
-    font-size: $f2;
-    margin-right: 25vw;
-    padding: 1em 5em;
-    text-align: center;
-    &:focus{
-        color: $white;
-        background-color: $primaryColMuted
+    &__social{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+    
+    &__impressum{
+        color: $primaryColMuted;
+        margin: 0;
+        width: unset;
+        font-size: $f2;
     }
 }

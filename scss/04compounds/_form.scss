@@ -13,11 +13,12 @@ form{
     &__label{
         margin-bottom: .5em;
         padding: .5em auto .5em .25em;
+        color: $accentCol1Muted;
     }
     &__input{
         padding: .5em 0.25em;
         margin-bottom: 1em;
-        border: $borderThin solid $primaryCol;
+        border: $borderThin solid $grey3;
         width: 100%;
         &:active{
             color: $accentCol1;
@@ -37,6 +38,6 @@ form{
     }
     
     &__btn{
-        color: $primaryCol;
+        color: $accentCol1Dark;
     }
 }
